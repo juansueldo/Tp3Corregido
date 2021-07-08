@@ -1,0 +1,10 @@
+11:07:07 **** Rebuild of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Employee.o "..\\Employee.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o utn.o "..\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc "-LC:\\Users\\operador\\Desktop\\Juan Presupuestos\\Extras\\workspace\\Tp3Corregido\\Tp3\\eclipse_tp3_v3\\tp3_windows" -o pruebaTp3.exe Controller.o Employee.o main.o menu.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
